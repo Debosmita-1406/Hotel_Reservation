@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Reservation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class=" xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+    <nav class="flex bg-blue-950 justify-evenly w-full h-14 items-center">
+      <div>
+        <img src="https://i.pinimg.com/originals/8f/cf/14/8fcf14f24cd41ab2b8795b75350823f6.jpg" alt="logo"
+          class=" w-16 h-14" />
+      </div>
+      <div class="space-x-6">
+        <a href="#AboutUs" class="text-white">About Us</a>
+        <a href="#ManagingCommittee" class="text-white">Managing Committee</a>
+        <label for="dp" class="text-white">Facility</label>
+        <select name="" id="dp " class="bg-blue-950">
+          <option value=""></option>
+          <option value="">1</option>
+          <option value="">2</option>
+        </select>
+        <a href="#ContactUs" class="text-white">Contact Us</a>
+        <button type="button" class="w-32 h-10 bg-blue-600 text-white">
+          Member Login
+        </button>
+      </div>
+    </nav>
+    <div class="flex bg-blue-950 gap-5 h-20 p-3  justify-center">
+      <input type="date" class="rounded-md w-52 h-10" />
+      <input type="date" class="rounded-md w-52 h-10" />
+      <input type="number" placeholder="1" max="100" class="rounded-md w-52 h-10">
+      <input type="number" placeholder="1" max="100" class="rounded-md w-52 h-10">
+      <button type="button" class="bg-blue-600 text-white w-44 h-10 rounded-md">Check availability</button>
+
+    </div>
+    <div class="m-6">
+      <h2 class="font-bold text-4xl">Search Results</h2>
+      <div class="grid grid-cols-3 mt-4 gap-4 ">
+        <div class="col-span-2 grid grid-rows-3 space-y-3 ">
+          <div class=" flex col-2 gap-2 shadow-lg rounded-lg">
+            <div class="">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Q2KGeED36DurIX1XlhD2_QHaEK&pid=Api&P=0&h=180" alt=""
+                class="w-56 h-48 rounded-s-md ">
+            </div>
+            <div class="">
+              <div class="font-bold text-2xl">Deluxe Room </div>
+
+              <button class=" bg-red-600 w-32 h-10 p-2 text-white font-semibold rounded-lg">1 Room Left!</button>
+              <button class="bg-slate-200 font-bold w-44 h-10 rounded-lg p-2">Member Rs.2000</button>
+              <button class="bg-slate-200 font-bold w-44 h-10 rounded-lg p-2">Guest Rs.2500</button>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur quas, inventore, aliquam
+                voluptas illum molreprehenderit qui tenetur ab laborum?</p>
+
+            </div>
+          </div>
+          <div class=" flex col-2 gap-2 shadow-lg rounded-lg">
+            <div class="">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Q2KGeED36DurIX1XlhD2_QHaEK&pid=Api&P=0&h=180" alt=""
+                class="w-56 h-48 rounded-s-md ">
+            </div>
+            <div class="">
+              <div class="font-bold text-2xl">Deluxe Room </div>
+
+              <button class=" bg-red-600 w-32 h-10 p-2 text-white font-semibold rounded-lg">1 Room Left!</button>
+              <button class="bg-slate-200 font-bold w-44 h-10 rounded-lg p-2">Member Rs.2000</button>
+              <button class="bg-slate-200 font-bold w-44 h-10 rounded-lg p-2">Guest Rs.2500</button>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur quas, inventore, aliquam
+                voluptas illum molreprehenderit qui tenetur ab laborum?</p>
+
+            </div>
+          </div>
+          <div class=" flex col-2 gap-2 shadow-lg rounded-lg">
+            <div class="">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Q2KGeED36DurIX1XlhD2_QHaEK&pid=Api&P=0&h=180" alt=""
+                class="w-56 h-48 rounded-s-md">
+            </div>
+            <div class="">
+              <div class="font-bold text-2xl">Deluxe Room </div>
+
+              <button class="bg-red-600 w-32 h-10 p-2 text-white font-semibold rounded-lg">1 Room Left!</button>
+              <button class="bg-slate-200 font-bold w-44 h-10 rounded-lg p-2">Member Rs.2000</button>
+              <button class="bg-slate-200 font-bold w-44 h-10 rounded-lg p-2">Guest Rs.2500</button>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur quas, inventore, aliquam
+                voluptas illum molreprehenderit qui tenetur ab laborum?</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class=" shadow-lg h-96 w-auto rounded-lg p-4">
+            <div class="flex justify-between">
+              <div class="">7 Sep 2023-8 Sep 2023</div>
+              <div class="">1 night</div>
+            </div>
+            <div class="flex justify-between">
+              <div class="div">1 X Deluxe Premium Room</div>
+              <p class="text-blue-500"><u>Change</u></p>
+            </div>
+            <div class="flex items-center mt-3 gap-3">
+              <div>
+                <button type="button" class="bg-blue-600 text-white w-10 h-10">8.7</button>
+              </div>
+              <div>
+                <p class="text-blue-600">Excellent Cleaniless</p>
+                <p>From 5151 reviews</p>
+              </div>
+
+            </div>
+            <hr class="m-3" />
+            <div class="flex columns-2 gap-3">
+              <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Q2KGeED36DurIX1XlhD2_QHaEK&pid=Api&P=0&h=180" alt=""
+                  class="rounded-lg w-24 h-28">
+              </div>
+              <div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                      <path fill-rule="evenodd"
+                        d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>1 room, 2 adults</div>
+                </div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                      <path fill-rule="evenodd"
+                        d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Max:2 Adults,1 child(0-6 years)</div>
+                </div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="#0635ef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-check-circle-2">
+                      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <div>Parking </div>
+                </div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="#0635ef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-check-circle-2">
+                      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <div>Coffee and tea </div>
+                </div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="#0635ef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-check-circle-2">
+                      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <div>Free wifi </div>
+                </div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="#0635ef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-check-circle-2">
+                      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <div>Drinking water </div>
+                </div>
+                <div class="flex items-center">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="#0635ef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-check-circle-2">
+                      <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <div>Free fitness center access</div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+            <hr class="m-4" />
+            <div class="text-blue-700"><u>Special conditions</u></div>
+          </div>
+          <div class=" shadow-lg h-96 w-auto rounded-lg p-4">
+            <div class="flex justify-end">
+              <button class="rounded-md bg-red-700 text-white p-3 ">75% OFF TODAY</button>
+            </div>
+            <div class="flex justify-between space-y-3">
+              <div class="div">Original Price(1 roomX 1 night)</div>
+              <div class="">Rs. 6512.79</div>
+            </div>
+            <div class="flex justify-between">
+              <div class="div">Room Price(1 roomX 1 night)</div>
+              <div class="">Rs. 1628.20</div>
+            </div>
+            <div class="flex justify-between">
+              <div class="div">Booking fees</div>
+              <div class="text-blue-600"><u>FREE</u></div>
+            </div>
+            <hr class="m-4">
+            <div class="flex justify-between">
+              <div class="font-bold">Price</div>
+              <div class="font-bold">Rs.1916.39</div>
+            </div>
+            <div class="space-y-2">
+              <span class="font-bold">Included in price:</span>
+              <span>Tax 7%, Service charge 10%</span>
+            </div>
+            <div class="mt-4">
+              <button class="bg bg-green-800 text-white p-3 w-auto">We price match. Final it for loss, and we'll match it</button>
+            </div>
+            <div class="mt-4">
+              <div>YOU SAVED Rs. 4,884.59 ON THIS BOOKING!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
